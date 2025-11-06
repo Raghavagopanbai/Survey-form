@@ -1,0 +1,109 @@
+
+/* Body styling */
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:larger;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/World_Health_Organization_Logo.svg/1280px-World_Health_Organization_Logo.svg.png);
+    background-size: 20%;
+    background-position: left;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 10px;
+    background-color: aqua;
+}
+
+
+/* Centered form container */
+form {
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 12px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+h1 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(107, 11, 11);
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-bottom: 6px;
+    color: #333;
+    font-weight: 500;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+    border-color: #6c63ff;
+    outline: none;
+}
+
+/* Paragraph sections */
+p {
+    font-weight: 600;
+    color: #444;
+    margin: 20px 0 10px;
+}
+
+/* Checkboxes */
+input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+}
+
+input[type="checkbox"] + label {
+    display: inline-block;
+    margin-bottom: 12px;
+    color: #333;
+}
+
+/* Submit Button */
+input[type="submit"] {
+    background-color: #6c63ff;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #5848dc;
+    transform: translateY(-2px);
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+    form {
+        padding: 20px;
+    }
+}
