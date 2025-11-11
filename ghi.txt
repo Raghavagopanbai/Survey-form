@@ -1,0 +1,5 @@
+git commands mainly used :-
+git status.
+git pull/git pull origin main/git pull origin dev.
+git checkout dev/main
+git fetch --all
